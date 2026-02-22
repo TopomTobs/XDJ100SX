@@ -10,7 +10,7 @@ This project is another experimental project that combines hardware, MIDI and op
 ## Main Requirements:
 
 - Raspberri Pi 3b+
-- Arduino/Teensy with MIDI libraries
+- Arduino/Teensy with MIDI libraries or RaspberryPi Pico 2
 
 
 ## Content:
