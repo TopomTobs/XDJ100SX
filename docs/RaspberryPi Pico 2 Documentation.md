@@ -36,8 +36,38 @@ We will have to cut some traces on the PCB first and then lay a new Ground. All 
 ## Wiring Buttons to Pico 2
 
 
+| Button         | Pin on Pico |
+| -------------- | ----------- |
+| eject          | 0           |
+| track previous | 1           |
+| track next     | 2           |
+| search back    | 3           |
+| search next    | 4           |
+| cue            | 5           |
+| jet            | 6           |
+| play           | 7           |
+| zip            | 8           |
+| wah            | 9           |
+| hold           | 10          |
+| time           | 11          |
+| mastertempo    | 12          |
+| jog A          | 14          |
+| jog B          | 15          |
+| Browse A       | 16          |
+| Browse B       | 17          |
+| load           | 18          |
+| led cue        | 19          |
+| led Play       | 20          |
+| led Intern     | 21          |
+| led CD         | 22          |
+| pitch          | A0          |
 
 
+![[Wiring_Pico.png]]
+
+### Wiring Jog
+I use 10k Ohm Resistors as pullups. It should also be possible with Pico onboard Pullups but I am not quite sure with that (Improvements are to be made here).
+![[Wiring_jog_Pico.png]]
 
 
 
