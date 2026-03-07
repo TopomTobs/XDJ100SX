@@ -30,6 +30,10 @@ Note it only works with the Raspberry Pi 3B+
 [Image File](https://drive.google.com/file/d/1xF3MYwbI78TJTnMUjNkVMXjbA1-jqFb2/view?usp=sharing).
 
 
++ New Image File with DAC Configured
+
+[compressed Image File by TopomTobs](https://1drv.ms/u/c/e532e1f91932269c/IQD9aWiq7WFSToYP2p__aJ3PAWQDYGNdWBTJ3ya3zKkWz0E?e=H8lEBm).
+
 
 ### 📜 License
 - All code in this repository is released under the [GNU GPL v3 License](https://www.gnu.org/licenses/gpl-3.0.html).
