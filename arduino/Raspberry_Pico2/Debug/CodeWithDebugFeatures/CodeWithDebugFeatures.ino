@@ -199,6 +199,7 @@ void setup() {
 // Decodes Jogwheel
 void jogread() {
   long newPosition_jog = jog.getCount();
+  Serial.println(newPosition_jog + "Hi");
   if (newPosition_jog % 4 == 0 && newPosition_jog != lastPosition_jog) {
     if (newPosition_jog > lastPosition_jog) {
       MIDI.sendControlChange(jogControlNumber, 65, midiChannel);
