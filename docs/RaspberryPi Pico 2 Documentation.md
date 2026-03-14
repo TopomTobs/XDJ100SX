@@ -31,7 +31,7 @@ You should be left with this:
 ### Cutting traces and laying new Ground
 We will have to cut some traces on the PCB first and then lay a new Ground. All input and output on this PCB share the same ground. The red lines are where you have to cut the PCB. The green marks indicate a bridge where for example a resistor was and the traces need to be connected (This is the case where led are). Check with a multimeter if every button and led is connected together via Ground. To Check if all Traces have been cut correctly one may use the debug code with Serial Monitor Output when a button is pressed (Arduino/Pico2/Debug just flash and check the Serial Monitor). 
 
-![[NewGround.png]]
+![NewGround.png](./images/NewFround.png)
 
 ## Wiring Buttons to Pico 2
 
@@ -63,11 +63,11 @@ We will have to cut some traces on the PCB first and then lay a new Ground. All 
 | pitch          | A0          |
 
 
-![[Wiring_Pico.png]]
+![Wiring_Pico.png](./images/Wiring_Pico.png)
 
 ### Wiring Jog
 I use 10k Ohm Resistors as pullups. It should also be possible with Pico onboard Pullups but I am not quite sure with that (Improvements are to be made here).
-![[Wiring_jog_Pico.png]]
+![Wiring_jog_Pico.png](./images/Wiring_jog_Pico.png)
 
 
 
@@ -82,4 +82,4 @@ I use 10k Ohm Resistors as pullups. It should also be possible with Pico onboard
 
 # Changes to the Linux envirement
 The file in /home/xdj100sx/.mixxx/controllers/XDJ100SX.midi.xml have to be replaced with the Pico Midi mappings. (See mixxx/MIDI/RaspberryPi_Pico2 on Github) Also make sure you use the right file in the mixxx settings. (Options/Preferences/Controllers/NameofController Load Mapping: PICO2_MIDI_Mapping_File).
-![[MIDI_Mapping.png]]
+![MIDI_Mapping.png](./images/MIDI_Mapping.png)
