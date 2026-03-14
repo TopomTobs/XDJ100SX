@@ -63,11 +63,11 @@ We will have to cut some traces on the PCB first and then lay a new Ground. All 
 | pitch          | A0          |
 
 
-![[Wiring_Pico.png](./images/Wiring_Pico.png)
+![Wiring_Pico.png](./images/Wiring_Pico.png)
 
 ### Wiring Jog
 I use 10k Ohm Resistors as pullups. It should also be possible with Pico onboard Pullups but I am not quite sure with that (Improvements are to be made here).
-![[Wiring_jog_Pico.png](./images/Wiring_jog_Pico.png)
+![Wiring_jog_Pico.png](./images/Wiring_jog_Pico.png)
 ### Wiring Browser
 Yellow = 18
 Blue = 17
@@ -87,4 +87,4 @@ Brown = 16
 
 # Changes to the Linux envirement
 The file in /home/xdj100sx/.mixxx/controllers/XDJ100SX.midi.xml have to be replaced with the Pico Midi mappings. (See mixxx/MIDI/RaspberryPi_Pico2 on Github) Also make sure you use the right file in the mixxx settings. (Options/Preferences/Controllers/NameofController Load Mapping: PICO2_MIDI_Mapping_File).
-![[MIDI_Mapping.png](./images/MIDI_Mapping.png)
+![MIDI_Mapping.png](./images/MIDI_Mapping.png)
